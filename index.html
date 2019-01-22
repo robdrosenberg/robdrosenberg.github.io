@@ -1,10 +1,35 @@
 <!DOCTYPE html>
 <html>
   <head>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta charset="UTF-8">
     <title>Robert Rosenberg</title>
+    <link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/all.css" integrity="sha384-UHRtZLI+pbxtHCWp1t77Bi1L4ZtiqrqD80Kn4Z8NTSRyMA2Fd33n5dQ8lWUE00s/" crossorigin="anonymous">
+    <!-- <script src="main.js"></script> -->
   </head>
   <body>
-    <h1>Hi, I'm a Full-Stack Developer Based in Seattle, Washington</h1>
+  <nav class="navbar">
+    <label class="navbar-toggle" id="js-navbar-toggle" for="chkToggle">
+            <i class="fa fa-bars"></i>
+        </label>
+    <a href="#home" class="logo">Robert Rosenberg</a>
+    <input type="checkbox" id="chkToggle"></input>
+    <ul class="main-nav" id="js-menu">
+      <li>
+        <a href="#about" class="nav-links">About</a>
+      </li>
+      <li>
+        <a href="#work" class="nav-links">Work</a>
+      </li>
+      <li>
+        <a href="mailto:hello@robdrosenberg.com" class="nav-links">hello@robdrosenberg.com</a>
+      </li>
+    </ul>
+  </nav>
+    <h1>Hello! I'm a Full-Stack Developer Based in Seattle, Washington.</h1>
+    <p>I specialize in Web applications built in Rails and Vue.js</p>
+    <p>Resume</p>
   </body>
 </html>
