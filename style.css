@@ -9,6 +9,12 @@
     font-family: 'Source Sans Pro', sans-serif;
   }
   
+  .container h1{
+      margin-left: 2em;
+      margin-top: 50px;
+      margin-bottom: 50px;
+      /* margin-right: 2em; */
+  }
   .navbar {
     font-size: 18px;
     border-top: 5px solid #3B95FF;
@@ -36,7 +42,7 @@
     display: inline-block;
     font-size: 22px;
     margin-top: 10px;
-    margin-left: 20px;
+    margin-left: 3em;
   }
   
   .navbar-toggle {
@@ -71,7 +77,7 @@
   
     .main-nav {
       display: flex;
-      margin-right: 30px;
+      margin-right: 3em;
       flex-direction: row;
       justify-content: flex-end;
     }
