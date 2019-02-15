@@ -1,2 +1,3 @@
-# robdrosenberg.github.io
-Portfolio Site
+# portfolio-nav
+
+## This is a repo for me to build the ideal navbar for my portfolio!
