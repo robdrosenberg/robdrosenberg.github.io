@@ -7,6 +7,34 @@ body {
 }
 .heading-secondary{
     font-size: 2rem;
-    margin-right: 15rem;
+    // margin-right: 15rem;
     margin-top: 1rem;
+}
+.underline-shadow{
+    box-shadow: inset 0 -6px 0 rgba($color-primary, .2);
+}
+
+.tech-icons{
+    font-size: 5rem;
+    color: $color-dark;
+    a:not(:last-child)
+    {
+        margin-right: 1rem;
+    }
+    i{
+        color: $color-dark;
+        // color: darken($color-primary, 20%);
+    }
+    // a i {
+    //     color: $color-dark;
+    //     font-size: 4rem;
+    //     margin-right: 1rem;
+    //     // background-color: red;
+    // }
+    // a:last-child{
+    //     margin-right: 0rem;
+    //     background-color: red;
+    // }
+    
+    
 }
