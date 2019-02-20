@@ -105,6 +105,11 @@ body {
     .navbar .navbar-toggle {
       display: none; } }
 
+.footer a {
+  color: #333; }
+  .footer a i {
+    font-size: 5rem; }
+
 .header {
   height: 95vh; }
 
