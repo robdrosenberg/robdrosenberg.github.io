@@ -3,12 +3,14 @@
     &__main {
         background-color: $color-grey;
         margin: 5rem;
+        // z-index: 2;
     }
 
     &__show {
         display: flex;
         // margin: 5rem;
-        padding: 2rem;
+        padding: 4rem 2rem;
+        // z-index: 1;
     }
 
     &__text {

@@ -1,10 +1,28 @@
 .section-about {
-    height: 95vh;
+    // height: 95vh;
+    margin-top: -23vh;
+    background-color: $color-primary;
+    z-index: -1;
+    position: relative;
+    padding-bottom: 15rem;
+    .about {
+        &__main {
+            // margin-top: 30rem;
+            padding-top: 20rem;
+            color: $color-white;
+        }
+    }
 }
 .section-projects {
-    height: 95vh;
-    margin-top: 20rem;
+    // height: 95vh;
+    margin-top: 10rem;
+    padding-top: 10rem;
+
+    
+    margin-bottom: 20rem;
+    // z-index: 3;
 }
+
 .main {
-    margin: 0 15rem;
+    // margin: 0 15rem;
 }
