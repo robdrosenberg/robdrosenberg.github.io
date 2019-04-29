@@ -1,0 +1,30 @@
+.project {
+
+    &__main {
+        background-color: $color-grey;
+        margin: 5rem;
+    }
+
+    &__show {
+        display: flex;
+        // margin: 5rem;
+        padding: 2rem;
+    }
+
+    &__text {
+        margin: 4rem;
+    }
+
+    &__link {
+        display: flex;
+    }
+    &__links {
+        text-decoration: none;
+        color: $color-primary;
+        font-size: 1.8rem;
+        line-height: 128%;
+        &:not(:last-child){
+            margin-right: 5rem;
+        }
+    }
+}

@@ -17,10 +17,11 @@ body {
   font-family: 'Source Sans Pro', sans-serif; }
 
 .heading-primary {
-  font-size: 4rem; }
+  font-size: 4rem;
+  flex: 1 1 auto; }
 
 .heading-secondary {
-  font-size: 2rem;
+  font-size: 2.5rem;
   margin-top: 1rem; }
 
 .underline-shadow {
@@ -33,6 +34,14 @@ body {
     margin-right: 1rem; }
   .tech-icons i {
     color: #333; }
+
+.project__primary {
+  font-size: 3.2rem;
+  line-height: 125%; }
+
+.project__secondary {
+  font-size: 1.8rem;
+  line-height: 128%; }
 
 .u-center-text {
   text-align: center; }
@@ -105,13 +114,49 @@ body {
     .navbar .navbar-toggle {
       display: none; } }
 
-.footer a {
-  color: #333; }
-  .footer a i {
-    font-size: 5rem; }
+.project__main {
+  background-color: #EEEEEE;
+  margin: 5rem; }
+
+.project__show {
+  display: flex;
+  padding: 2rem; }
+
+.project__text {
+  margin: 4rem; }
+
+.project__link {
+  display: flex; }
+
+.project__links {
+  text-decoration: none;
+  color: #3B95FF;
+  font-size: 1.8rem;
+  line-height: 128%; }
+  .project__links:not(:last-child) {
+    margin-right: 5rem; }
+
+.footer {
+  display: flex;
+  justify-content: flex-end; }
+  .footer a {
+    color: #333; }
+    .footer a i {
+      font-size: 5rem; }
 
 .header {
   height: 95vh; }
+  .header-image {
+    height: auto;
+    width: 8%;
+    border-radius: 50%;
+    box-shadow: 0px 10px 20px rgba(0, 0, 0, 0.25);
+    margin-right: 2rem; }
+  .header__row {
+    display: flex;
+    align-items: center;
+    flex-flow: row wrap;
+    justify-content: center; }
 
 .header__main {
   padding-top: 15rem;
@@ -123,3 +168,6 @@ body {
 .section-projects {
   height: 95vh;
   margin-top: 20rem; }
+
+.main {
+  margin: 0 15rem; }

@@ -15,80 +15,118 @@
 </head>
 
 <body>
-    <!-- NAV -->
-    <nav class="navbar">
-        <label class="navbar-toggle" for="chkToggle">
-            <i class="fa fa-bars"></i>
-        </label>
-        <div class="logo-text">
-            <a href="#home" class="logo-link">Robert Rosenberg</a>
-        </div>
-        <input type="checkbox" id="chkToggle">
-        <ul class="nav-list">
-            <li><a href="#about" class="nav-links">About</a></li>
-            <li><a href="#projects" class="nav-links">Projects</a></li>
-            <li><a href="mailto:hello@robdrosenberg.com" class="nav-links">hello@robdrosenberg.com</a></li>
-        </ul>
-    </nav>
-    <!-- MAIN HEADER -->
-    <header class="header" id="home">
-        <div class="header__main">
-            <h1 class="heading-primary u-margin-bottom-medium">👋 <span class="underline-shadow">Hello, I'm a Web Developer based in Seattle</span></h1>
-            <p class="heading-secondary u-margin-bottom-medium">Thanks for stopping by! I'm passionate about software so you'll likely catch me on Product Hunt or Hacker News. 😅
-                <br>
-                Check out my projects below and feel free to reach out if you think we'd enjoy working together. <br>Currently, I'm looking for Full-Stack entry-level positions.
-            </p>
-            <a href="#" class="btn-text">Resume &rarr;</a>
-        </div>
-    </header>
-    <!-- ABOUT -->
-    <section class="section-about" id="about">
-        <div class="about__main">
-            <h1 class="heading-primary u-center-text u-margin-bottom-medium"><span class="underline-shadow">Tools & Technologies</span></h1>
-            <p class="heading-secondary u-center-text u-margin-bottom-medium">I've have experience in the following:</p>
-            <div class="tech-icons u-center-text u-margin-bottom-medium">
-                <a href=""><i class="fab fa-html5"></i></a>
-                <a href=""><i class="fab fa-css3-alt"></i></a>
-                <a href=""><i class="fab fa-sass"></i></a>
-                <a href=""><i class="fab fa-js-square"></i></a>
-                <a href=""><i class="icon-ruby"></i></a>
-                <a href=""><i class="icon-ruby-on-rails-alt"></i></a>
-                <a href=""><i class="fab fa-vuejs"></i></a>
-                <a href=""><i class="icon-mssql"></i></a>
-                <a href=""><i class="icon-postgres"></i></a>
-                <a href=""><i class="icon-git"></i></a>
-                <a href="" style="margin-right: 0;"><i class="fab fa-wordpress"></i></a>
-
+    <div class="main">
+        <!-- NAV -->
+        <nav class="navbar">
+            <label class="navbar-toggle" for="chkToggle">
+                <i class="fa fa-bars"></i>
+            </label>
+            <div class="logo-text">
+                <a href="#home" class="logo-link">Robert Rosenberg</a>
+            </div>
+            <input type="checkbox" id="chkToggle">
+            <ul class="nav-list">
+                <li><a href="#about" class="nav-links">About</a></li>
+                <li><a href="#projects" class="nav-links">Projects</a></li>
+                <li><a class="mailtoui nav-links" href="mailto:hello@robdrosenberg.com">hello@robdrosenberg.com</a></li>
+            </ul>
+        </nav>
+        <!-- MAIN HEADER -->
+        <header class="header" id="home">
+            <div class="header__main">
+                <div class="header__row u-margin-bottom-medium">
+                    <img src="/img/rr_headshot.jpg" alt="" class="header-image">
+                    <h1 class="heading-primary">
+                        👋 <span class="underline-shadow">Hello, I'm a Web Developer based in Seattle</span>
+                    </h1>
+                </div>
                 
+                <p class="heading-secondary u-margin-bottom-medium">Thanks for stopping by! I'm passionate software product nerd so you'll likely catch me on Product Hunt or Hacker News. 😅
+                    <br>
+                    Check out my projects below and feel free to reach out if you think we'd enjoy working together. <br>Currently, I'm a Junior Web Developer with <a href="https://offbaseproductions.com">Off Base Productions</a>.
+                </p>
+                <a href="#" class="btn-text">Resume &rarr;</a>
             </div>
-            <p class="heading-secondary u-center-text u-margin-bottom-medium">I'm currently learning:</i></p>
-            <div class="tech-icons u-center-text u-margin-bottom-big">
-                <a href=""><i class="fab fa-react"></i></a>
-                <a href=""><i class="fab fa-node"></i></a>
+        </header>
+        <!-- ABOUT -->
+        <section class="section-about" id="about">
+            <div class="about__main">
+                <h1 class="heading-primary u-center-text u-margin-bottom-medium"><span class="underline-shadow">Tools & Technologies</span></h1>
+                <p class="heading-secondary u-center-text u-margin-bottom-medium">I've have experience in the following:</p>
+                <div class="tech-icons u-center-text u-margin-bottom-medium">
+                    <a href=""><i class="fab fa-html5"></i></a>
+                    <a href=""><i class="fab fa-css3-alt"></i></a>
+                    <a href=""><i class="fab fa-sass"></i></a>
+                    <a href=""><i class="fab fa-js-square"></i></a>
+                    <a href=""><i class="icon-ruby"></i></a>
+                    <a href=""><i class="icon-ruby-on-rails-alt"></i></a>
+                    <a href=""><i class="fab fa-vuejs"></i></a>
+                    <a href=""><i class="icon-mssql"></i></a>
+                    <a href=""><i class="icon-postgres"></i></a>
+                    <a href=""><i class="icon-git"></i></a>
+                    <a href="" style="margin-right: 0;"><i class="fab fa-wordpress"></i></a>
+
+                    
+                </div>
+                <p class="heading-secondary u-center-text u-margin-bottom-medium">I'm currently learning:</i></p>
+                <div class="tech-icons u-center-text u-margin-bottom-big">
+                    <a href=""><i class="fab fa-react"></i></a>
+                    <a href=""><i class="fab fa-node"></i></a>
+                </div>
+
+                <h1 class="heading-primary u-center-text u-margin-bottom-medium">
+                    📚 <span class="underline-shadow">Reading & Writing</span> ✏️
+                </h1>
+                <p class="heading-secondary u-center-text u-margin-bottom-medium">Currently Reading: <strong>You Don't Know JS</strong></p>
+                <p class="heading-secondary u-center-text u-margin-bottom-medium">Previously Read: <strong>Artemis</strong></p>
+                <p class="heading-secondary u-center-text u-margin-bottom-medium">Latest Blog Post: <strong><a href="" class="btn-text">Securing API keys in Rails</a></strong></p>
+
             </div>
+        </section>
 
-            <h1 class="heading-primary u-center-text u-margin-bottom-medium">
-                📚 <span class="underline-shadow">Reading & Writing</span> ✏️
-            </h1>
-            <p class="heading-secondary u-center-text u-margin-bottom-medium">Currently Reading: <strong>You Don't Know JS</strong></p>
-            <p class="heading-secondary u-center-text u-margin-bottom-medium">Previously Read: <strong>Artemis</strong></p>
-            <p class="heading-secondary u-center-text u-margin-bottom-medium">Latest Blog Post: <strong><a href="" class="btn-text">Securing API keys in Rails</a></strong></p>
-
-        </div>
-    </section>
-
-    <section class="section-projects" id="projects">
-        <div class="projects__main">
+        <section class="section-projects" id="projects">
             <h1 class="heading-primary u-center-text u-margin-bottom-medium">
                 <span class="underline-shadow">Projects</span>
             </h1>
-        </div>
+            <div class="project__main">
+                <div class="project__show">
+                    <div class="project__text">
+                        <h2 class="project__primary u-margin-bottom-medium">go.commit</h2>
+                        <p class="project__secondary u-margin-bottom-big">Lorem ipsum dolor sit amet consectetur adipisicing elit. Atque tempore porro in aliquid unde magni delectus adipisci quibusdam </p>
+                        <div class="project__link">
+                            <a href="https://go-commit.herokuapp.com" class="project__links">Demo</a>
+                            <a href="https://github.com/robdrosenberg/commitment-ledger" class="project__links">Github</a>
+                        </div>
+                    </div>
+                    <div class="project_image">
+                        <img src="https://via.placeholder.com/555x333" alt="">
+                    </div>
+                </div>
+            </div>
+            <div class="project__main">
+                <div class="project__show">
+                    <div class="project__text">
+                        <h2 class="project__primary u-margin-bottom-medium">News-Hunt</h2>
+                        <p class="project__secondary u-margin-bottom-big">Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                            Atque tempore porro in aliquid unde magni delectus adipisci quibusdam </p>
+                        <div class="project__link">
+                            <a href="https://newz-hunt.herokuapp.com" class="project__links">Demo</a>
+                            <a href="https://github.com/robdrosenberg/news-hunt" class="project__links">Github</a>
+                        </div>
+                    </div>
+                    <div class="project_image">
+                        <img src="https://via.placeholder.com/555x333" alt="">
+                    </div>
+                </div>
+            </div>
 
-    </section>
+        </section>
 
-    <footer class="footer">
-        <a href="#home"><i class="fas fa-arrow-up"></i></a>
-    </footer>
+        <footer class="footer">
+            <a href="#home"><i class="fas fa-arrow-up"></i></a>
+        </footer>
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/mailtoui@1.0.1/dist/mailtoui-min.js"></script>
 </body>
 
 </html>

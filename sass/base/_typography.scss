@@ -4,9 +4,11 @@ body {
 
 .heading-primary{
     font-size: 4rem;
+    flex: 1 1 auto;
+    // align-items: center;
 }
 .heading-secondary{
-    font-size: 2rem;
+    font-size: 2.5rem;
     // margin-right: 15rem;
     margin-top: 1rem;
 }
@@ -35,6 +37,15 @@ body {
     //     margin-right: 0rem;
     //     background-color: red;
     // }
-    
-    
+}
+
+.project {
+    &__primary {
+        font-size: 3.2rem;
+        line-height: 125%;
+    }
+    &__secondary {
+        font-size: 1.8rem;
+        line-height: 128%;
+    }
 }
